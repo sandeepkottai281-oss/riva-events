@@ -1,0 +1,4 @@
+Place your actual Riva photos here. Suggested filenames:
+lakeside.webp, event-lawn.webp, evening-event.webp, mini-hall.webp, rooms.webp.
+Use these paths in docs/config.js. Do not treat suggested filenames as supplied photos.
+Aim for images under 400 KB where practical, with a hero image around 1600 px wide.
