@@ -13,7 +13,7 @@ window.RIVA = {
   email: '',
   instagramUrl: '',
   // Leave blank to use the typographic RIVA heading. Do not invent a logo.
-  logo: '',
+  logo: 'assets/riva-logo.png',
   heroPhoto: 'assets/photos/aerial-view.webp', // e.g. 'assets/photos/lakeside.webp'
   heroAlt: 'Aerial view of the Riva grounds on the water at Enamavu Lake',
   heroPosition: '45% 55%',
