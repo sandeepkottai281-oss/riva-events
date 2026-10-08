@@ -66,6 +66,6 @@ $('enquiry-form').addEventListener('submit',async event=>{
 $('share').onclick=async()=>{
   const url=safeLink(c.siteUrl)||location.href.split('#')[0];
   if(!url.startsWith('https://')){$('share-status').textContent='Publish the website to share its link.';return;}
-  try{if(navigator.share){await navigator.share({title:'Riva — Celebration and Beyond',text:'Explore Riva by Enamavu Lake.',url});}else{await copy(url);$('share-status').textContent='Link copied.';}}
+  try{if(navigator.share){await navigator.share({title:'Riva — Celebrations and Beyond',text:'Explore Riva by Enamavu Lake.',url});}else{await copy(url);$('share-status').textContent='Link copied.';}}
   catch(error){if(error.name!=='AbortError'){$('share-status').textContent='Copy this link: '+url;}}
 };

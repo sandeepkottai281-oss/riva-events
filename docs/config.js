@@ -2,7 +2,7 @@
 // Photo paths are relative to docs/index.html. Use your real Riva photographs.
 window.RIVA = {
   name: 'RIVA',
-  tagline: 'Celebration and Beyond',
+  tagline: 'Celebrations and Beyond',
   location: 'Enamavu Lake · Thrissur, Kerala',
   headline: 'A beautiful setting.\nA memorable gathering.',
   introduction: 'On the banks of Enamavu Lake in Thrissur, Riva brings people together in a peaceful lakeside setting. From intimate weddings and family celebrations to corporate gatherings, discover a space to make the occasion your own.',
