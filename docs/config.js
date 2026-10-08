@@ -20,7 +20,9 @@ window.RIVA = {
   // Add photos like {src: 'assets/photos/lawn.webp', alt: 'Riva event lawn', caption: 'By the lake', position: '50% 50%'}.
   photos: [
     {src: 'assets/photos/garden-path.webp', alt: 'Stone garden path beside the lake at Riva, with coconut palms and a lawn', caption: 'Garden path by the lake', position: '55% 60%'},
-    {src: 'assets/photos/pavilion-lawn.webp', alt: 'Open lawn and timber-framed pavilion among coconut palms at Riva', caption: 'The lawn and pavilion', position: '60% 55%'}
+    {src: 'assets/photos/pavilion-lawn.webp', alt: 'Open lawn and timber-framed pavilion among coconut palms at Riva', caption: 'The lawn and pavilion', position: '60% 55%'},
+    {src: 'assets/photos/palm-lined-pathways.webp', alt: 'A stepping-stone path across a lawn lined with coconut palms, beside a cobbled area at Riva', caption: 'Palm-lined pathways', position: '50% 45%'},
+    {src: 'assets/photos/event-lawn.webp', alt: 'The open event lawn at Riva with coconut palms and a pitched-roof building beyond', caption: 'The event lawn', position: '85% 50%'}
   ],
   duration: '3 PM – 10 PM',
   inclusions: ['Two rooms', 'Mini hall', 'Open stage', 'Entire facility'],
