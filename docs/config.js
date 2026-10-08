@@ -18,11 +18,12 @@ window.RIVA = {
   heroAlt: 'A houseboat on the still lake at sunset, with palm trees on the shore',
   heroPosition: '55% 55%',
   // Add photos like {src: 'assets/photos/lawn.webp', alt: 'Riva event lawn', caption: 'By the lake', position: '50% 50%'}.
+  // Photos appear in this order. 'caption' only names the photo here; it is not shown on the website. 'alt' is read aloud by screen readers.
   photos: [
     {src: 'assets/photos/garden-path.webp', alt: 'Stone garden path beside the lake at Riva, with coconut palms and a lawn', caption: 'Garden path by the lake', position: '55% 60%'},
-    {src: 'assets/photos/pavilion-lawn.webp', alt: 'Open lawn and timber-framed pavilion among coconut palms at Riva', caption: 'The lawn and pavilion', position: '60% 55%'},
+    {src: 'assets/photos/event-lawn.webp', alt: 'The open event lawn at Riva with coconut palms and a pitched-roof building beyond', caption: 'The event lawn', position: '85% 50%'},
     {src: 'assets/photos/palm-lined-pathways.webp', alt: 'A stepping-stone path across a lawn lined with coconut palms, beside a cobbled area at Riva', caption: 'Palm-lined pathways', position: '50% 45%'},
-    {src: 'assets/photos/event-lawn.webp', alt: 'The open event lawn at Riva with coconut palms and a pitched-roof building beyond', caption: 'The event lawn', position: '85% 50%'}
+    {src: 'assets/photos/pavilion-lawn.webp', alt: 'Open lawn and timber-framed pavilion among coconut palms at Riva', caption: 'The lawn and pavilion', position: '60% 55%'}
   ],
   duration: '3 PM – 10 PM',
   inclusions: ['Two rooms', 'Mini hall', 'Open stage', 'Entire facility'],
