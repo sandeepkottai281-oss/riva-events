@@ -30,5 +30,5 @@ window.RIVA = {
   // Add only confirmed policies. These are displayed verbatim; none are assumed.
   terms: [],
   // Replace after deployment with the actual public Pages URL, including trailing slash.
-  siteUrl: ''
+  siteUrl: 'https://sandeepkottai281-oss.github.io/riva-events/'
 };

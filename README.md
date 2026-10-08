@@ -69,6 +69,8 @@ Google Maps link: https://maps.app.goo.gl/bCVWC7fKYBdj2ZVm8
 
 Still to supply/set: real photos, optional official logo, actual WhatsApp number, GitHub account/repository access, real published URL, and the final static sharing preview image/metadata. The detailed Claude brief covers these final steps. The kit includes no credentials or backend.
 
-## Validation in this handoff
+## Validation
 
-JavaScript syntax checks passed for app.js and config.js. A browser smoke test was attempted, but the available runtime has no installed Chromium executable, so visual and interaction testing remains for Claude before publishing. No GitHub deployment has been performed.
+Tested in headless Chromium at 375px, 768px and 1440px (no horizontal overflow, no console errors, no 404s), under the `/riva-events/` sub-path, including gallery open/Escape/focus return, a missing gallery photo, package preselection, and the encoded WhatsApp message (using a temporary test number, not committed).
+
+Public link (once GitHub Pages is switched on for `main` → `/docs`): https://sandeepkottai281-oss.github.io/riva-events/
