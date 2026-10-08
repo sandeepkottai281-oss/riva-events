@@ -14,10 +14,14 @@ window.RIVA = {
   instagramUrl: '',
   // Leave blank to use the typographic RIVA heading. Do not invent a logo.
   logo: '',
-  heroPhoto: '', // e.g. 'assets/photos/lakeside.webp'
-  heroAlt: 'Riva beside Enamavu Lake',
+  heroPhoto: 'assets/photos/aerial-view.webp', // e.g. 'assets/photos/lakeside.webp'
+  heroAlt: 'Aerial view of the Riva grounds on the water at Enamavu Lake',
+  heroPosition: '45% 55%',
   // Add photos like {src: 'assets/photos/lawn.webp', alt: 'Riva event lawn', caption: 'By the lake', position: '50% 50%'}.
-  photos: [],
+  photos: [
+    {src: 'assets/photos/garden-path.webp', alt: 'Stone garden path beside the lake at Riva, with coconut palms and a lawn', caption: 'Garden path by the lake', position: '55% 60%'},
+    {src: 'assets/photos/pavilion-lawn.webp', alt: 'Open lawn and timber-framed pavilion among coconut palms at Riva', caption: 'The lawn and pavilion', position: '60% 55%'}
+  ],
   duration: '3 PM – 10 PM',
   inclusions: ['Two rooms', 'Mini hall', 'Open stage', 'Entire facility'],
   packages: [

@@ -18,7 +18,7 @@ $('year').textContent=new Date().getFullYear();
 for(const id of ['maps-link','maps-secondary']) $(id).href=safeLink(c.mapsUrl)||'https://maps.google.com/';
 if(photoPath(c.logo)){ $('logo').src=photoPath(c.logo); $('logo').hidden=false; $('brand-text').hidden=true; $('logo').onerror=()=>{$('logo').hidden=true;$('brand-text').hidden=false;}; }
 if(photoPath(c.heroPhoto)){
-  const img=$('hero-image'); img.alt=c.heroAlt; img.onload=()=>{img.hidden=false;$('hero-type').hidden=true;}; img.onerror=()=>{img.hidden=true;$('hero-type').hidden=false;}; img.src=photoPath(c.heroPhoto);
+  const img=$('hero-image'); img.alt=c.heroAlt; img.style.objectPosition=c.heroPosition||'50% 50%'; img.onload=()=>{img.hidden=false;$('hero-type').hidden=true;}; img.onerror=()=>{img.hidden=true;$('hero-type').hidden=false;}; img.src=photoPath(c.heroPhoto);
 }
 const dialog=$('lightbox');
 dialog.querySelector('.close').onclick=()=>dialog.close();

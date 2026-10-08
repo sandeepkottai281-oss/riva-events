@@ -29,6 +29,7 @@ Hero photo:
 
 ```js
 heroPhoto: 'assets/photos/lakeside.webp',
+heroPosition: '50% 50%', // which part of the photo stays visible when cropped
 heroAlt: 'The Riva lawn beside Enamavu Lake',
 ```
 
