@@ -75,3 +75,7 @@ Still to supply/set: real photos, optional official logo, actual WhatsApp number
 Tested in headless Chromium at 375px, 768px and 1440px (no horizontal overflow, no console errors, no 404s), under the `/riva-events/` sub-path, including gallery open/Escape/focus return, a missing gallery photo, package preselection, and the encoded WhatsApp message (using a temporary test number, not committed).
 
 Public link (once GitHub Pages is switched on for `main` → `/docs`): https://sandeepkottai281-oss.github.io/riva-events/
+
+## If the live site does not update after a merge
+
+Open the repository's **Actions** tab and look for a new "pages build and deployment" run for your latest commit. If none appears within a few minutes, any new commit on `main` (even a small README edit) starts a fresh build. Publishing source: `main` branch, `/docs` folder. The custom domain is kept in `docs/CNAME`; do not delete that file.
