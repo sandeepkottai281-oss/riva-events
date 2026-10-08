@@ -8,8 +8,8 @@ window.RIVA = {
   introduction: 'On the banks of Enamavu Lake in Thrissur, Riva brings people together in a peaceful lakeside setting. From intimate weddings and family celebrations to corporate gatherings, discover a space to make the occasion your own.',
   mapsUrl: 'https://maps.app.goo.gl/bCVWC7fKYBdj2ZVm8',
   // International country code + number, digits only. Example format: 91XXXXXXXXXX.
-  whatsappNumber: '',
-  phoneDisplay: '',
+  whatsappNumber: '917907821710',
+  phoneDisplay: '+91 79078 21710',
   email: '',
   instagramUrl: '',
   // Leave blank to use the typographic RIVA heading. Do not invent a logo.
