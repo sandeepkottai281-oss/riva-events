@@ -33,8 +33,8 @@ for(const photo of c.photos){
   const button=element('button'); button.type='button'; button.setAttribute('aria-label','View photo: '+photo.alt);
   const img=element('img'); img.alt=photo.alt||''; img.loading='lazy'; img.decoding='async'; img.src=src; img.style.objectPosition=photo.position||'50% 50%';
   img.onerror=()=>{button.remove(); if(!$('gallery').children.length) $('gallery-section').hidden=true;};
-  button.append(img,element('span',photo.caption||photo.alt));
-  button.onclick=()=>{$('lightbox-image').src=src;$('lightbox-image').alt=photo.alt||'';$('lightbox-caption').textContent=photo.caption||photo.alt;dialog.showModal();};
+  button.append(img);
+  button.onclick=()=>{$('lightbox-image').src=src;$('lightbox-image').alt=photo.alt||'';dialog.showModal();};
   $('gallery').append(button);
 }
 $('gallery-section').hidden=!$('gallery').children.length;
